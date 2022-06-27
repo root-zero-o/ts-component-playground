@@ -1,5 +1,6 @@
 import Counter from "../src/Counter";
 import MyForm from "../src/MyForm";
+import Counter2 from "../src/Counter2";
 
 const Home = () => {
 
@@ -13,6 +14,7 @@ const Home = () => {
     <>
       <Counter/>
       <MyForm onSubmit={onSubmit}/>
+      <Counter2/>
     </>
   )
 }
